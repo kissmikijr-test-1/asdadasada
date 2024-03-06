@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: asdadasada
+  title: Asdsada
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://kissmikijr-test-1.github.io/asdadasada/
+      title: Live website
+  annotations:
+    github.com/project-slug: kissmikijr-test-1/asdadasada
+spec:
+  type: website
+  owner: user:dtuite
+  lifecycle: experimental
